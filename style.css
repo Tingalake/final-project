@@ -1,0 +1,169 @@
+.header {
+    font-size: x-large;
+    color: whitesmoke;
+    background-color: black;
+    
+}
+
+
+
+.border{
+    
+     align-content: center;
+    text-align: center;
+    border: 5px solid black;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    padding: 19px;
+    margin: 3px
+
+    
+}
+
+
+nav{ 
+    
+    position: sticky;
+    top: 20px;
+    text-align: center;
+    text-shadow: 2px 2px silver;
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav > a {
+    margin: 20px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    
+
+}
+.left{
+   
+    float: left;
+    width: 47%;
+    text-shadow: 2px 2px silver;
+    
+}
+.right{
+    
+    float: right;
+    width: 47%; 
+    text-shadow: 2px 2px silver; 
+    height: 320px;
+
+}
+
+footer{
+    
+    
+    position: fixed;bottom:0;left:0;right:0;height:30px;
+    clear: both;
+    
+}
+
+section, article {
+
+    height: 250px;
+    text-shadow: 2px 2px silver;
+    text-size-adjust: 25;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+aside{
+    align-items: center;
+    height: 250px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body {
+    text-align: center;
+    text-shadow: 2px 2px silver;
+   background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    height: 150vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+a:link{
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+body a:hover:not(.active) {
+
+    color: whitesmoke;
+    background-color: black;
+    
+       
+
+}
+
+img{
+    
+    float: right;}
+
+
+   
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid white; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+  }
+  
+ 
+  input[type=submit]:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    
+    
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  
+ 
